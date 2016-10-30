@@ -10,7 +10,7 @@ s = int(now1.hour)
 d = int(now1.minute)
 ss = int(now1.second) + 1
 
-def todayAt(hr, min, sec=0, micros=0):
+def todayAt(hr, min=0, sec=0, micros=0):
     now = datetime.datetime.now()
     return now.replace(hour=hr, minute=min, second=sec, microsecond=micros) 
 
@@ -45,7 +45,7 @@ if __name__ == "__main__":
   while True:
     timeNow = datetime.datetime.now()
     print timeNow.hour, s, timeNow.minute, d
-    if timeNow >= todayAt (s,d):
+    if timeNow >= todayAt (s):
         print "Posted"
         s += 1
         if s >= 23:
