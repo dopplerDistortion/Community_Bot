@@ -16,7 +16,7 @@ def todayAt(hr, min=0, sec=0, micros=0):
 
 def post():
   g = safygiphy.Giphy()
-  r = g.random(tag="adult swim")
+  r = g.random(tag="science")
   img = r["data"]["image_original_url"]
 
   # Fill in the values noted in previous steps here
