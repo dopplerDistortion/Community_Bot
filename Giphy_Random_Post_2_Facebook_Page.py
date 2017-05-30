@@ -21,9 +21,9 @@ def post():
 
   # Fill in the values noted in previous steps here
   cfg = {
-    "page_id"      : "1010368365728206",  # page id in about page
+    "page_id"      : "****",  # page id in about page
     #"access_token" : "EAANtVYu0l2EBAP7Dcknx1SeZCloQMoZC1B5AILAeDcGKsv3S15ZC1VD$
-    "access_token" : "EAANtVYu0l2EBAAFtXqP7iNxLUT680w2lnYCCpL7FmUxwDTvz9YnI6X7aH2KkCzkMgHzPvz3tQhSeZBJMYOQjUmp4NSBi04x2o9K6ySLm5JlZBUdnu7UBtylUta1KbeeZBbGVGnt2CC9ZCOkBrOmFArMSErOCuBhNkSm4VOfn3wZDZD"
+    "access_token" : "****"
     }
 
   api = get_api(cfg)
