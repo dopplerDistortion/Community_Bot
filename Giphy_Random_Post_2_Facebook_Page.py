@@ -22,7 +22,6 @@ def post():
   # Fill in the values noted in previous steps here
   cfg = {
     "page_id"      : "****",  # page id in about page
-    #"access_token" : "EAANtVYu0l2EBAP7Dcknx1SeZCloQMoZC1B5AILAeDcGKsv3S15ZC1VD$
     "access_token" : "****"
     }
 
